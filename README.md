@@ -61,7 +61,7 @@
         }
     ],
 	```
-	-6.2 根绝[知乎玩家][https://zhuanlan.zhihu.com/p/38178015]的配置，添加编译链之类的，
+	- 6.2 根绝[知乎玩家](https://zhuanlan.zhihu.com/p/38178015) 的配置，添加编译链之类的，
 	```
 	"latex-workshop.latex.recipes": [
         {
