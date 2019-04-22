@@ -1,0 +1,21 @@
+\newpage
+
+\centerline{\fangsong\bf\zihao{-2}{Data extraction of engineering drawings based}}
+
+\centerline{\fangsong\bf\zihao{-2}{on OpenCV and its application in the}}
+
+\centerline{\fangsong\bf\zihao{-2}{ location system of UltraWideband}}
+
+
+\addcontentsline{toc}{section}{Abstract(key words)}%加入目录
+
+
+\vskip 20bp
+
+\hspace{4bp} {\zihao{-4}\textbf{【 Abstract】}} 
+This paper introduces the research background and significance of Mobile Tiling Robot, and enumerate the development situation of the same kind of robot at home and abroad, sure of the prospect of Mobile Robotic Tiling in the future. This paper is starting from the demand of the indoor location for Mobile Tiling Robot in the real construction site, and put forward solutions consists of two parts : extracting data from  engineering drawings and real-time location system. The first part is convert DWG format to JPG at first, secondly process image by using OpenCV, then find out the Harris Corners, finally locate and sort the corners by algorithm. The second part is use the processed corners to plot the equal-probability engineering drawings by Qt, then rasterize the region and feedback the tile information to robot, lastly with the data returned from the serial port of UltraWideband, calculate the real-time location of Mobile Tiling Robot by using the mixed program of Python and C/C++.
+
+\vskip 10bp
+
+\hspace{5bp}{\zihao{-4}\textbf{【 Keywords】}}
+Mobile Tiling Robot; DWG2JPG; PyQt5; Trilateration Location; Mixed Program

@@ -1,0 +1,31 @@
+\newpage
+
+
+\centerline{\fangsong\bf\zihao{-2}{基于OpenCV的工程图数据提取及其}}
+
+\centerline{\fangsong\bf\zihao{-2}{在UWB定位系统的应用}}
+
+\addcontentsline{toc}{section}{摘要(关键词)}%加入目录
+
+\vskip 1cm
+
+\begin{center}
+	\kaishu
+	\hspace{2cm}机器人学院软件工程专业 \quad 陈俊杰 
+	\vspace{5bp}
+	\newline
+	学号：201541412127
+\end{center}
+
+\vskip 10bp
+{
+\kaishu	
+\hspace{5bp}{\zihao{-4}\textbf{【摘要】}} 
+本文介绍了铺砖机器人的研究背景和意义，列举了同类机器人在国内外的发展现状，肯定了铺砖机器人在未来发展的前景。本文从铺砖机器人在实际施工场地中室内定位的需求出发，提出了提取工程图数据和实时定位两个部分的解决方案。第一部分中工程图由常规的DWG格式文件转换到JPG格式图像，再经过OpenCV处理，检测出工程图中的角点，并通过角点定位排序法；第二部分利用排好序的角点，通过Qt绘制出等比例的工程图，并利用砖块对工程图进行栅格化，再将砖块信息反馈给铺砖机器人，最后利用UWB串口返回的数据通过Python和C/C++的混合编程定位机器人在室内的实时位置。
+
+
+\vskip 10bp
+
+\hspace{5bp} {\zihao{-4}\textbf{【 关键词 】}} 
+铺砖机器人; DWG2JPG; PyQt5; Trilateration定位; 混合编程
+}

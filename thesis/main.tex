@@ -1,18 +1,42 @@
-\documentclass[a4paper]{paper}
+\documentclass[a4paper, punct,space,nospace, fancyhdr, fntef,UTF8]{ctexart}
 
-\usepackage{ctex} % 使用中文包
+% \usepackage{ctex} % 使用中文包
 
-% \usepackage{DGUT} % 使用东莞理工论文样式
-
+\usepackage{DGUT} % 使用东莞理工论文样式
 
 
 %%%%%%%%%%%% Begin Documents %%%%%%%%
 \begin{document}
+    \input{main.cfg}
     
-% 封面
-% \blankmatter
+    \pagestyle{empty} % 不要页脚页眉
+    \include{doc/cover}
+    \include{doc/statement}
+    
 
-\include{data/abstract}
+    \zihao{-4}
+    % \tableofcontents%生成目录
+    \thispagestyle{empty} %页脚不要页码
+    %“目录”两个字的样式与section的样式一致，默认居中，故将设置section标题居左放置在生成目录后
+    \CTEXsetup[format={\Large\bfseries}]{section}  %section标题居左
+    
+	%%%%正文开始，页脚有页码
+	\cfoot{\zihao{-5}第 \ \thepage \ 页 \ 共 \ \pageref{lastpage} 页}%%%%lastpage为末页标签
+	%正文
+	\zihao{5}
+	\pagenumbering{arabic}%页码使用阿拉伯数字
+	\setcounter{page}{0}  %重新设置页码计数
+	\pagestyle{fancy}
+
+    % \include{doc/cnabstract}
+    % \include{doc/enabstract}
+    % \include{doc/chapter01}
+	\include{doc/chapter02}
+	% \include{doc/chapter03}
+	% \include{doc/chapter04}
+	% \include{doc/chapter05}
+	% \include{doc/chapter06}
+	% \include{doc/chapter07}
 
 \end{document}
 
