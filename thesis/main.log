@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.20)  22 APR 2019 14:50
+This is XeTeX, Version 3.14159265-2.6-0.99999 (TeX Live 2018/W32TeX) (preloaded format=xelatex 2019.4.20)  23 APR 2019 13:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1535,11 +1535,15 @@ File: graphics/Image_Segmentation.png Graphic file (type bmp)
 
 LaTeX Warning: Reference `lastpage' on page 2 undefined on input line 113.
 
-[2])
+[2]
 
-LaTeX Warning: Reference `lastpage' on page 3 undefined on input line 34.
+LaTeX Warning: Reference `lastpage' on page 3 undefined on input line 166.
 
-[3] (./main.aux (./doc/cover.aux) (./doc/statement.aux) (./doc/chapter02.aux))
+[3])
+
+LaTeX Warning: Reference `lastpage' on page 4 undefined on input line 34.
+
+[4] (./main.aux (./doc/cover.aux) (./doc/statement.aux) (./doc/chapter02.aux))
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.22pt have occurred.
@@ -1563,4 +1567,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  53i,12n,68p,10438b,466s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on main.pdf (6 pages).
+Output written on main.pdf (7 pages).
